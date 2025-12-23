@@ -31,8 +31,8 @@ export const config = {
   
   // App URLs
   app: {
-    dashboardUrl: process.env.DASHBOARD_URL || 'https://nicheshunter.app/niches',
-    supportEmail: process.env.SUPPORT_EMAIL || 'support@nicheshunter.app',
+    dashboardUrl: process.env.DASHBOARD_URL || 'https://nicheshunter.app/login',
+    supportEmail: process.env.SUPPORT_EMAIL || 'support@arianeconcept.fr',
   },
 };
 

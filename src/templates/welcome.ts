@@ -76,7 +76,7 @@ export function getWelcomeEmailHTML(planType: PlanType): string {
                       <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 32px; background: #f8f9fa; border-radius: 16px; overflow: hidden">
                         <tr>
                           <td width="33%" style="text-align: center; padding: 24px 8px; border-right: 1px solid #eee">
-                            <div style="font-size: 32px; font-weight: 800; color: ${accentColor}; margin-bottom: 4px">1000+</div>
+                            <div style="font-size: 32px; font-weight: 800; color: ${accentColor}; margin-bottom: 4px">50+</div>
                             <div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; font-weight: 600">Niches</div>
                           </td>
                           <td width="33%" style="text-align: center; padding: 24px 8px; border-right: 1px solid #eee">
@@ -95,7 +95,7 @@ export function getWelcomeEmailHTML(planType: PlanType): string {
                           <td style="padding: 14px 16px; background: #f8f9fa; border-radius: 12px; margin-bottom: 8px">
                             <span style="font-size: 18px; margin-right: 12px">🔓</span>
                             <span style="color: #111; font-size: 15px; font-weight: 600">Unlimited Niches</span>
-                            <span style="color: #888; font-size: 14px"> browse 1000+ opportunities</span>
+                            <span style="color: #888; font-size: 14px"> browse 50+ opportunities</span>
                           </td>
                         </tr>
                         <tr><td style="height: 8px"></td></tr>
