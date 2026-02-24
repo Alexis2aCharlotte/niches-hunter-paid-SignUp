@@ -20,7 +20,8 @@ export const config = {
   // Email
   email: {
     resendApiKey: process.env.RESEND_API_KEY || '',
-    fromEmail: 'Niches Hunter <support@arianeconcept.fr>',
+    fromEmail: 'Niches Hunter <hello@nicheshunter.app>',
+    replyTo: 'contact@nicheshunter.app',
   },
   
   // Telegram
@@ -32,7 +33,7 @@ export const config = {
   // App URLs
   app: {
     dashboardUrl: process.env.DASHBOARD_URL || 'https://nicheshunter.app/login',
-    supportEmail: process.env.SUPPORT_EMAIL || 'support@arianeconcept.fr',
+    supportEmail: process.env.SUPPORT_EMAIL || 'contact@nicheshunter.app',
   },
 };
 

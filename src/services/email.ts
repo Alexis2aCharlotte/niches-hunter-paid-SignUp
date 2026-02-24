@@ -34,6 +34,7 @@ export async function sendPaidWelcomeEmail(
   const { error } = await getResendClient().emails.send({
     from: config.email.fromEmail,
     to: toEmail,
+    reply_to: config.email.replyTo,
     subject: subject,
     html: html,
   });
